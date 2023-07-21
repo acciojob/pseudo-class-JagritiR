@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.main {
+  color: black;
+  text-align: center;
+}
+
+/* Insert "Before Element" before the main container element */
+.main::before {
+  content: "Before Element";
+	  color: red;
+
+	
+}
+
+/* Insert "After Element" after the main container element */
+.main::after {
+  content: "After Element";
+	  color: red;
+
+}
