@@ -2,6 +2,7 @@
 .main {
   color: black;
   text-align: center;
+	padding:10px;
 }
 
 /* Insert "Before Element" before the main container element */
