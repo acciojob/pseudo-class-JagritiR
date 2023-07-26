@@ -10,13 +10,13 @@ border-top: 1px solid lightgray;
 
 #container:before {
   content: "Before Element ";
-color: red;
+color: rgb(255, 0, 0);;
 
 }
 
 #container:after {
   content: " After Element";
-color: red;
+color: rgb(255, 0, 0);;
 
 }
 
