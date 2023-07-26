@@ -1,19 +1,26 @@
-/*  your css code here. If applicable */
-.main {
+/* This is the CSS file */
+#container {
   color: black;
-  text-align: center;
-	padding:10px;
-}
+border-top: 1px solid lightgray;
+ border-bottom: 1px solid lightgray;
+	padding: 15px;
 
-.main::before {
-  content: "Before Element";
-	  color: #FF0000;
-
-	
-}
-
-.main::after {
-  content: "After Element";
-	  color: #FF0000;
 
 }
+
+#container:before {
+  content: "Before Element ";
+color: red;
+
+}
+
+#container:after {
+  content: " After Element";
+color: red;
+
+}
+
+#container:hover {
+  color: blue;
+}
+
