@@ -1,26 +1,25 @@
 /* This is the CSS file */
+/* Set a margin of 20px to the container */
 #container {
-  color: black;
-border-top: 1px solid lightgray;
- border-bottom: 1px solid lightgray;
-	padding: 15px;
-
-
+  margin: 20px;
 }
 
-#container:before {
-  content: "Before Element ";
-color: #ff0000;
-
+/* Use the ::before pseudo-class to insert content before the main content of the container */
+#container::before {
+  /* Use the content property to specify the text to be inserted */
+  content: "Before Element";
+  /* Use the color property to set the text color to red */
+  color: #f00;
+  /* Use the font-size property to set the text size to 20px */
+  font-size: 20px;
 }
 
-#container:after {
-  content: " After Element";
-color: #ff0000;
-
+/* Use the ::after pseudo-class to insert content after the main content of the container */
+#container::after {
+  /* Use the content property to specify the text to be inserted */
+  content: "After Element";
+  /* Use the color property to set the text color to red */
+  color: #f00;
+  /* Use the font-size property to set the text size to 20px */
+  font-size: 20px;
 }
-
-#container:hover {
-  color: blue;
-}
-
