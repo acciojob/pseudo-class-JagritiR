@@ -1,25 +1,17 @@
-/* This is the CSS file */
-/* Set a margin of 20px to the container */
+/* styles.css */
+
 #container {
   margin: 20px;
 }
 
-/* Use the ::before pseudo-class to insert content before the main content of the container */
-#container::before {
-  /* Use the content property to specify the text to be inserted */
+#container:before {
   content: "Before Element";
-  /* Use the color property to set the text color to red */
   color: #f00;
-  /* Use the font-size property to set the text size to 20px */
   font-size: 20px;
 }
 
-/* Use the ::after pseudo-class to insert content after the main content of the container */
-#container::after {
-  /* Use the content property to specify the text to be inserted */
+#container:after {
   content: "After Element";
-  /* Use the color property to set the text color to red */
   color: #f00;
-  /* Use the font-size property to set the text size to 20px */
   font-size: 20px;
 }
